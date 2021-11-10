@@ -20,9 +20,12 @@ namespace TestIQ.ListView
     /// </summary>
     public partial class showDataView : Page
     {
-        public showDataView()
+        Grid _grid;
+
+        public showDataView(Grid grid)
         {
             InitializeComponent();
+            _grid = grid;
         }
 
         private async void LoadData()
@@ -32,9 +35,35 @@ namespace TestIQ.ListView
             listUserDt.ItemsSource = await listUserData;
         }
 
-        private async void Page_Loaded(object sender, RoutedEventArgs e)
+        private void Page_Loaded(object sender, RoutedEventArgs e)
         {
             LoadData();
         }
+
+        private void listUserDt_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var item = listUserDt.SelectedItem as TestIQ.Models.QuestionModel;
+            Console.WriteLine(item.Answer);
+        }
+
+        private void listUserDt_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+
+            var _question = listUserDt.SelectedItem as Models.QuestionModel;
+            UControls.DetailQuestionUControl detail = new UControls.DetailQuestionUControl(_grid,_question);
+            AddControl(_grid,0,1,detail);
+
+        }
+        private void AddControl(Grid grd,int gridColumn,int gridRow,UserControl u)
+        {
+            grd.Children.Add(u);
+            u.SetValue(Grid.RowProperty, gridRow);
+            u.SetValue(Grid.ColumnProperty, gridColumn);
+            u.SetValue(Grid.ColumnSpanProperty, 4);
+            u.SetValue(Grid.RowSpanProperty, 4);
+            u.Margin = new Thickness(20);
+
+        }
+
     }
 }

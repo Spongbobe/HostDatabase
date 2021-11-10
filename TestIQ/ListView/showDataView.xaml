@@ -20,11 +20,13 @@
 
 
             <ListView Background="Transparent"
-                      x:Name="listUserDt">
+                      MouseDoubleClick="listUserDt_MouseDoubleClick"
+                      x:Name="listUserDt" SelectionChanged="listUserDt_SelectionChanged">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                         <StackPanel Orientation="Vertical" xml:space="default">
-                                   <TextBlock Text="{Binding Question}" 
+                         <StackPanel Orientation="Horizontal" xml:space="default">
+                                   <TextBlock Text="{Binding Question}"
+                                              Margin="0 10 0 10"
                                                FontSize="15"
                                               TextWrapping="Wrap"
                                        Foreground="White">
@@ -33,7 +35,7 @@
                           
                                     <TextBlock Text="{Binding Answer,StringFormat='Anwer : ({0})'}" 
                                    Foreground="Red"
-                                               Padding="0 30 0 0"
+                                               Padding="20 10 0 0"
                                    FontSize="15"/>
                             
                         </StackPanel>

@@ -1,0 +1,17 @@
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\bin\Debug\Database\MultyUserDb.db
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\bin\Debug\MultyUser.exe.config
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\bin\Debug\MultyUser.exe
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\bin\Debug\MultyUser.pdb
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\bin\Debug\Dapper.dll
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\bin\Debug\System.Data.SQLite.dll
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\bin\Debug\Dapper.xml
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\bin\Debug\System.Data.SQLite.xml
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\obj\Debug\MultyUser.csproj.AssemblyReference.cache
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\obj\Debug\MultyUser.csproj.SuggestedBindingRedirects.cache
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\obj\Debug\MultyUser.Form1.resources
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\obj\Debug\MultyUser.Properties.Resources.resources
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\obj\Debug\MultyUser.csproj.GenerateResource.cache
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\obj\Debug\MultyUser.csproj.CoreCompileInputs.cache
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\obj\Debug\MultyUser.csproj.CopyComplete
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\obj\Debug\MultyUser.exe
+C:\Users\2\Desktop\testProjects\T\HostDatabase\MultyUser\obj\Debug\MultyUser.pdb

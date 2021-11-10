@@ -12,7 +12,7 @@
         WindowStyle="None"
         ResizeMode="NoResize"
         Title="Dashboard" Height="850" Width="1200">
-    <Grid Background="#1e1e1f" MouseDown="Grid_MouseDown">
+    <Grid Background="#1e1e1f" MouseDown="Grid_MouseDown" x:Name="mainGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
@@ -29,9 +29,10 @@
         <!--Username-->
         <TextBlock Grid.Column="3"
                    Foreground="Red"
+                   x:Name="teacherName"
                    FontSize="18"
                    VerticalAlignment="Center"
-                   Text="Username : ( none )" FontFamily="Dubai Light">
+                   Text="Teacher Name : ( none )" FontFamily="Dubai Light">
 
         </TextBlock>
         <TextBlock Grid.Column="0"

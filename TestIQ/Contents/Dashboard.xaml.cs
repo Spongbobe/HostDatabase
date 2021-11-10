@@ -23,7 +23,7 @@ namespace TestIQ.Contents
         public Dashboard()
         {
             InitializeComponent();
-            showdt = new ListView.showDataView();
+            showdt = new ListView.showDataView(mainGrid);
             mainFrame.Content = showdt;
         }
 

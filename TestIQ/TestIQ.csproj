@@ -75,6 +75,7 @@
     </Compile>
     <Compile Include="DataAcces\LogAccess.cs" />
     <Compile Include="DataAcces\QuestionAccess.cs" />
+    <Compile Include="DataAcces\ReviewQuestionAccess.cs" />
     <Compile Include="ListView\showDataView.xaml.cs">
       <DependentUpon>showDataView.xaml</DependentUpon>
     </Compile>
@@ -86,10 +87,14 @@
     </Compile>
     <Compile Include="Models\LogModel.cs" />
     <Compile Include="Models\QuestionModel.cs" />
+    <Compile Include="Models\ReviewQuestionModel.cs" />
     <Compile Include="RegisterWindow.xaml.cs">
       <DependentUpon>RegisterWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="SqlHelper.cs" />
+    <Compile Include="UControls\DetailQuestionUControl.xaml.cs">
+      <DependentUpon>DetailQuestionUControl.xaml</DependentUpon>
+    </Compile>
     <Page Include="Contents\Dashboard.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -130,6 +135,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UControls\DetailQuestionUControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Catfact.cs" />
@@ -147,6 +156,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Resource Include="Images\delete_sign_48px.png" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -155,6 +165,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\LogDb.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ReviewQuestionDb.db">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="packages.config" />

@@ -10,5 +10,13 @@ namespace TestIQ.Models
     {
         public string Question { get; set; }
         public string Answer { get; set; }
+        public string NeAnswer
+        {
+            get
+            {
+                bool convert = !(bool.Parse(Answer));
+                return convert.ToString();
+            }       
+        }
     }
 }

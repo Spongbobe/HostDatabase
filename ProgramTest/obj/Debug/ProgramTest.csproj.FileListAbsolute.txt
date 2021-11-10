@@ -1,0 +1,16 @@
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\bin\Debug\ProgramTest.exe.config
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\bin\Debug\ProgramTest.exe
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\bin\Debug\ProgramTest.pdb
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\obj\Debug\ProgramTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\obj\Debug\MainWindow.g.cs
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\obj\Debug\App.g.cs
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\obj\Debug\ProgramTest_MarkupCompile.cache
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\obj\Debug\ProgramTest_MarkupCompile.lref
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\obj\Debug\MainWindow.baml
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\obj\Debug\ProgramTest.g.resources
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\obj\Debug\ProgramTest.Properties.Resources.resources
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\obj\Debug\ProgramTest.csproj.GenerateResource.cache
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\obj\Debug\ProgramTest.csproj.CoreCompileInputs.cache
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\obj\Debug\ProgramTest.exe
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\obj\Debug\ProgramTest.pdb
+C:\Users\2\Desktop\testProjects\T\HostDatabase\ProgramTest\obj\Debug\ProgramTest.csproj.AssemblyReference.cache

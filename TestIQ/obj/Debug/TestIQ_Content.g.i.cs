@@ -10,5 +10,6 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/questionreview.db")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/logdb.db")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/reviewquestiondb.db")]
 
 
