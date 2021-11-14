@@ -27,6 +27,10 @@ namespace TestIQ.ListView
             InitializeComponent();
             _grid = grid;
         }
+        public showDataView()
+        {
+            InitializeComponent();
+        }
 
         private async void LoadData()
         {

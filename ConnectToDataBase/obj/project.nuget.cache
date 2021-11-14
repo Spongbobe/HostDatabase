@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "tn7t6pTnoijsalVGTp63KNvfEAHjDQuhyV2MuoXgijRgT4PKWGWKRmN8JN+ORGNf7fIj7GEds1Ft/X+j9+HjlA==",
+  "dgSpecHash": "0G5em1WuiaSCLP8RNiMQf06boXU+DzKBjwV5S4VBvExnxbl5boA//M1d0Beb6NPsZ0mhEYW9g0R5nlEaxpCSwQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\2\\Desktop\\testProjects\\T\\HostDatabase\\ConnectToDataBase\\ConnectToDataBase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
+    "C:\\Users\\2\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\2\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
     "C:\\Users\\2\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
     "C:\\Users\\2\\.nuget\\packages\\k4os.compression.lz4.streams\\1.2.6\\k4os.compression.lz4.streams.1.2.6.nupkg.sha512",
